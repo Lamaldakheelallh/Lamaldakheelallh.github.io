@@ -1,0 +1,238 @@
+/* Global Styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f8f9fb;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Navigation */
+header {
+  background-color: #091e39;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+nav {
+  background-color: transparent;
+  padding: 0;
+  box-shadow: none;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 1.5rem;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #6381a8;
+}
+
+.site-title {
+  color: #ffffff;
+  margin: 0;
+  font-size: 1.5rem;
+} 
+
+/* Headings */
+h1 {
+  text-align: center;
+  color: #091e39;
+  text-transform: capitalize;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+h2 {
+  color: #091e39;
+  border-bottom: 2px solid #091e39;
+  padding-bottom: 0.3rem;
+}
+
+h3 {
+  color: #444;
+}
+
+/* Text & Links */
+p {
+  font-size: 1rem;
+  margin: 1rem 0;
+}
+
+a {
+  color: #091e39;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+/* Lists */
+ul {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+/* Layout (Box Model) */
+main {
+  padding: 1.5rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+article {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+section {
+  margin-bottom: 1rem;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #091e39;
+  color: #f5f5dc;
+}
+
+footer a {
+  color: #f5f5dc;
+}
+
+/* Form Styling */
+form {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.3rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  background-color: #091e39;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #091e39;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  background-color: #091e39;
+  color: #ffffff;
+  padding: 0.6rem 1.2rem;
+  margin-top: 0.5rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #223750;
+  transform: scale(1.05);
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+/* Classes & IDs */
+.highlight {
+  background-color: #eef2f7;
+  padding: 0.2rem;
+  border-radius: 5px;
+}
+
+#intro {
+  font-style: italic;
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav a {
+    display: block;
+    margin: 0.5rem 0;
+  }
+
+  table {
+    display: block;
+  }
+}
+/* Home Page */
+.lama {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.lama-text {
+  flex: 1;
+}
+
+.lama-image img {
+  width: 11.25rem;
+  height: auto;
+  border-radius: 10%;
+}
+/* Projects Navigation */
+.project-nav {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.project-nav a {
+  display: inline-block;
+  background-color: #091e39; 
+  color: #ffffff; 
+  padding: 0.5rem 1rem;
+  margin: 0.3rem;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+
+.project-nav a:hover {
+  background-color: #223750;
+  transform: scale(1.05);
+}
+html {
+  scroll-behavior: smooth;
+}
